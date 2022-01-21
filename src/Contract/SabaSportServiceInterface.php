@@ -13,7 +13,6 @@ interface SabaSportServiceInterface
      * @param string $account
      * @param string $game_code
      * @param string $language
-     * @param string $backUrl
      * @return mixed
      */
     function gameLaunch(string $op_code, string $account, string $game_code, string $language);
